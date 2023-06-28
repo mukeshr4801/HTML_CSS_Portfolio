@@ -1,0 +1,64 @@
+#herosection{
+    background-color: #0C134F;
+}
+#aboutme{
+    background-color: #F2F2F2;
+}
+#resumesection{
+    background-color: #ECF2FF;
+}
+#projectsection{
+    background-color: #C4B0FF;
+}
+#contactme{
+    background-color: #ECF2FF;
+}
+body{
+    background-color: #ECF2FF;
+}
+
+h1,h2{
+    color: #3E54AC;
+}
+#foot{
+    background-color: #0C134F;
+}
+h1{
+    font-size: calc(1.425rem + 2.1vw);
+    font-family: 'Yeseva One', cursive;
+}
+h3,p{
+    font-size: calc(0.425rem + 2.1vw);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rating-bar{
+    background: #3E54AC;
+    padding:3px;
+    width: 100px;
+    
+  }
+  .rating-bar span{
+    display:block;
+    height:15px;
+  }
+  .rating-bar, .rating-bar span {
+    border-radius:4px; 
+  }
+  
+  /* Used to color the bars */
+  .blue{ background: #F2F2F2; }
+  .red{ background:red; }
+  
+  /* .rate-n, n being the rating from 1 to 10 */
+  .rate-1{ width:10%; }
+  .rate-2{ width:20%; }
+  .rate-3{ width:30%; }
+  .rate-4{ width:40%; }
+  .rate-5{ width:50%; }
+  .rate-6{ width:60%; }
+  .rate-7{ width:70%; }
+  .rate-8{ width:80%; }
+  .rate-9{ width:90%; }
+  .rate-10{ width:100%; }
+
